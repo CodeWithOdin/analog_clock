@@ -30,69 +30,75 @@ body{
     font-weight: 600;
     
 }
-/* .in{
+.in{
     padding-bottom: 0.5em;
     font-weight: 600;
-} */
+}
 
 .number.number1{
+    padding-top: 0.5em;
     --deg:30deg;
 }
 .number.number2{
+    padding-top: 0.5rem;
     --deg:60deg;
 }
 .number.number3{
     --deg:90deg;
 }
-/* .number3 .in{
+.number3 .in{
     transform: rotate(-90deg);
-} */
+}
 .number.number4{
     --deg:120deg;
 }
-/* .number4 .in{
+.number4 .in{
     transform: rotate(-150deg);
-} */
+}
 .number.number5{
-    padding-top: 0.5rem;
+   
     --deg:150deg;
 }
-/* .number5 .in{
+.number5 .in{
     transform: rotate(-180deg);
-} */
+}
 
 .number.number6{
     padding-top: 0.5rem;
     --deg:180deg;
 }
-/* .number6 .in{
+.number6 .in{
     transform: rotate(-180deg);
-} */
+}
 .number.number7{
     padding-top: 0.5rem;
     --deg:210deg;
 }
-/* .number7 .in{
+.number7 .in{
     transform: rotate(-180deg);
-} */
+}
 .number.number8{
     --deg:240deg;
 }
-/* .number8 .in{
+.number8 .in{
     transform: rotate(-180deg);
-} */
+}
 .number.number9{
     --deg:270deg;
 }
-/* .number9 .in{
-    width: 10px;
+.number9 .in{
     transform: rotate(-270deg);
-} */
+}
 .number.number10{
+    padding-top: 0.5rem;
     --deg:300deg;
 }
 .number.number11{
+    padding-top: 0.5rem;
     --deg:330deg;
+}
+.number.number12{
+    padding-top: 0.5rem;
 }
 
 .hand{
