@@ -11,8 +11,8 @@ body{
     justify-content:center;
 }
 .clock{
-    width:clamp(400px,calc(400px - 1rem),200px);
-    height:400px;
+    width: 400px;
+    height: 400px;
     border-radius:50%;
     background-color: antiquewhite;
     position: relative;
@@ -26,6 +26,7 @@ body{
     height: 100%;
     text-align: center;
     transform: rotate(var(--deg));
+    transform-origin: center;
     font-weight: 600;
     
 }
@@ -139,6 +140,12 @@ body{
     border-radius: 50%;
     top: 46%;
     margin: 0;
+}
+@media only screen and (max-width:400px) {
+    .clock{
+        width: 250px;
+        height: 250px;
+    }
 }
 
 
