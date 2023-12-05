@@ -27,10 +27,11 @@ body{
     height: 100%;
     text-align: center;
     transform: rotate(var(--deg));
-    padding-top: 1px;
+    padding-top: 0.5rem;
     
 }
 .in{
+    padding-bottom: 0.5rem;
     font-weight: 600;
 }
 
@@ -53,6 +54,7 @@ body{
     transform: rotate(-150deg);
 }
 .number.number5{
+    padding-top: 0.5rem;
     --deg:150deg;
 }
 .number5 .in{
@@ -60,12 +62,14 @@ body{
 }
 
 .number.number6{
+    padding-top: 0.5rem;
     --deg:180deg;
 }
 .number6 .in{
     transform: rotate(-180deg);
 }
 .number.number7{
+    padding-top: 0.5rem;
     --deg:210deg;
 }
 .number7 .in{
